@@ -32,7 +32,7 @@ python wiki_to_txt.py Data\zhwiki-20160820-pages-articles.xml.bz2
 python segment.py
 ```
 
-5. train word2vec by gensim (~xxmings, i7-860)
+5. train word2vec by gensim (~30mings, i7-860)
 ```
 python train.py
 ```
