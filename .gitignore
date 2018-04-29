@@ -4,3 +4,4 @@ Data1/zh_yuewiki-20180428-pages-articles.xml.bz2
 Data/*
 Model/*.model
 Model/*.npy
+Data1/wiki_texts.txt
