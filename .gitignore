@@ -1,7 +1,11 @@
+Data/*.txt
+Data/*.bz2
+Data/*.zip
+Data/*.7z
 Data/zhwiki-20180428-pages-articles.xml.bz2
+Data/Data1/*
 Data1/zh_yuewiki-20180428-pages-articles.xml.bz2
 Data1/zh_yuewiki-20180428-pages-articles.xml.bz2
-Data/*
+Data1/wiki_texts.txt
 Model/*.model
 Model/*.npy
-Data1/wiki_texts.txt
