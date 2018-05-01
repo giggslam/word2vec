@@ -1,20 +1,20 @@
 # word2vec by Gensim
 
-### 2018-04-29
+### 2018-05-01
 
 ## Package Requirement
 
 * jieba
 ```
-pip3 install jieba
+pip install jieba
 ```
 * gensim
 ```
-pip3 install -U gensim
+pip install -U gensim
 ```
 * [OpenCC](https://github.com/BYVoid/OpenCC) (繁簡轉換)
 
-## Pipline
+## Pipeline
 
 1. Download [wiki_data](https://dumps.wikimedia.org/zhwiki/) (zhwiki-20180428-pages-articles.xml.bz2, 1.46GB, suffex: `pages-articles.xml.bz2`),
 saved to sub-folder "Data"
