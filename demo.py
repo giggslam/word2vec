@@ -5,7 +5,7 @@ from gensim import models
 import logging
 
 def main():
-	demo()
+	demo(word2vec_model='Model/med250.model.bin')
 
 def demo(word2vec_model='Model/word2vec.model'):
 	logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
