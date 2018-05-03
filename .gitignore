@@ -3,7 +3,6 @@ Data/*.bz2
 Data/*.zip
 Data/*.7z
 Data/zhwiki-20180428-pages-articles.xml.bz2
-<<<<<<< HEAD
 Data/*
 Data1/zh_yuewiki-20180428-pages-articles.xml.bz2
 Data1/zh_yuewiki-20180428-pages-articles.xml.bz2
@@ -12,11 +11,3 @@ Model/*.npy
 Model/*.bin
 Data1/wiki_texts.txt
 Model/med250.model.bin
-=======
-Data/Data1/*
-Data1/zh_yuewiki-20180428-pages-articles.xml.bz2
-Data1/zh_yuewiki-20180428-pages-articles.xml.bz2
-Data1/wiki_texts.txt
-Model/*.model
-Model/*.npy
->>>>>>> 9f2640a3114be588a314bd4efadd3895bfa198e4
