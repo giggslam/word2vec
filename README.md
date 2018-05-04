@@ -1,6 +1,6 @@
 # word2vec by Gensim
 
-### 2018-05-01
+### 2018-05-04
 
 ## Package Requirement
 
@@ -16,7 +16,7 @@ pip install -U gensim
 
 ## Pipeline
 
-1. Download [wiki_data](https://dumps.wikimedia.org/zhwiki/) (zhwiki-20180428-pages-articles.xml.bz2, 1.46GB, suffex: `pages-articles.xml.bz2`),
+1. Download [wiki_data](https://dumps.wikimedia.org/zhwiki/) (zhwiki-20180428-pages-articles.xml.bz2, 1.46GB, suffex: `pages-articles.xml.bz2`)([維基百科：數據庫下載](https://zh.wikipedia.org/wiki/Wikipedia:数据库下载)),
 saved to sub-folder "Data"
 
 2. Extract text from xml by `wiki_to_txt.py` (~50mins, i7-860)
