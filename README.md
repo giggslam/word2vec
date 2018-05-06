@@ -1,12 +1,12 @@
 # word2vec by Gensim
 
-### 2018-05-06
+2018-05-06
 
 ## Package Requirement
 
 * jieba
 
-```
+``` bash
 pip install jieba
 ```
 
@@ -30,25 +30,25 @@ saved to sub-folder `Data`
 python wiki_to_txt.py Data\zhwiki-20160820-pages-articles.xml.bz2
 ```
 
-3.Convert ST to TW by OpenCC (~10mins, i7-860)
+(3) Convert ST to TW by OpenCC (~10mins, i7-860)
 
 ``` bash
 .\opencc\opencc.exe -i Data\wiki_texts.txt -o Data\wiki_zh_tw.txt -c opencc\s2tw.json
 ```
 
-4. word segmentation (delete stop word) by jieba (~xxmins, i7-860)
+(4) word segmentation (delete stop word) by jieba (~xxmins, i7-860)
 
 ``` bash
 python segment.py
 ```
 
-5. train word2vec by gensim (~30mings, i7-860)
+(5) train word2vec by gensim (~30mings, i7-860)
 
 ``` bash
 python train.py
 ```
 
-6. Test
+(6) Test
 
 ``` bash
 python demo.py
